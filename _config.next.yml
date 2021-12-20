@@ -1,0 +1,43 @@
+scheme: Gemini
+darkmode: true
+footer:
+  copyright: ZKLlab
+  powered: false
+  beian:
+    enable: true
+    icp: 沪ICP备17002314号-1
+    gongan_id: 44010302000519
+    gongan_num: 粤公网安备 44010302000519号
+    gongan_icon_url: /images/beian.png
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+  unescape: false
+  preload: false
+menu:
+  home: / || fa fa-home
+  archives: /archives/ || fa fa-archive
+  categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+social:
+  Email: mailto:zkl@zkllab.com || fa fa-envelope
+  Github: https://github.com/ZKLlab || fab fa-github
+  RSS: /atom.xml || fa fa-rss
+creative_commons:
+  license: by-nc-sa
+  size: small
+  sidebar: true
+  post: true
+  language: deed.zh
+back2top:
+  scrollpercent: true
+github_banner:
+  enable: true
+  permalink: https://github.com/ZKLlab
+rss: true
+pjax: true
+mediumzoom: true
+lazyload: true
+pace:
+  enable: true
