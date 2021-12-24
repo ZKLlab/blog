@@ -1,5 +1,4 @@
 scheme: Gemini
-darkmode: true
 footer:
   copyright: ZKLlab
   powered: false
@@ -9,12 +8,14 @@ footer:
     gongan_id: 44010302000519
     gongan_num: 粤公网安备 44010302000519号
     gongan_icon_url: /images/beian.png
-local_search:
-  enable: true
-  trigger: auto
-  top_n_per_article: 1
-  unescape: false
-  preload: false
+theme_color:
+  light: '#1f2937'
+favicon:
+  small:
+  medium:
+  apple_touch_icon:
+  safari_pinned_tab:
+  android_manifest:
 menu:
   home: / || fa fa-home
   archives: /archives/ || fa fa-archive
@@ -24,13 +25,33 @@ social:
   Email: mailto:zkl@zkllab.com || fa fa-envelope
   Github: https://github.com/ZKLlab || fab fa-github
   RSS: /atom.xml || fa fa-rss
+comments:
+  style: tabs
+  active: disqus
+  lazyload: false
+  nav:
+    disqus:
+      order: -1
+local_search:
+  enable: true
+  trigger: auto
+  top_n_per_article: 1
+  unescape: false
+  preload: false
 creative_commons:
   license: by-nc-sa
   size: small
   sidebar: true
   post: true
   language: deed.zh
+mobile_layout_economy: true
+custom_file_path:
+  variable: source/_data/variables.styl
+codeblock:
+  copy_button:
+    enable: true
 back2top:
+  sidebar: true
   scrollpercent: true
 github_banner:
   enable: true
@@ -41,3 +62,15 @@ mediumzoom: true
 lazyload: true
 pace:
   enable: true
+disqus:
+  enable: true
+  shortname: blog-zkllab-com
+  count: false
+busuanzi_count:
+  enable: true
+  total_visitors: false
+  total_views: false
+  post_views: false
+google_analytics:
+  tracking_id: G-0GDLK3ZC4H
+  only_pageview: false
